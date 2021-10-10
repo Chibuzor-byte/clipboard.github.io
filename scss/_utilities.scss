@@ -1,0 +1,16 @@
+// u-text-container {
+//     text-align: center;
+
+// }
+
+.u-margin-bottom{
+    margin-bottom: $margin-big;
+}
+.text-container {
+    width: $mobile-width;
+    max-width: 575px;
+    margin: 0 auto;
+    text-align: center;
+    @include text;
+}
+

@@ -1,0 +1,233 @@
+*, *::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.header__logo-container {
+  background-image: url(../images/bg-header-mobile.png);
+  background-repeat: repeat-x;
+  padding: 33.333%;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (min-width: 634px) {
+  .header__logo-container {
+    background-image: url(../images/bg-header-desktop.png);
+    margin-bottom: -200px;
+    background-size: 250vh;
+  }
+}
+
+.header__logo {
+  position: absolute;
+  top: 33.333%;
+  left: 33.333%;
+}
+
+@media only screen and (min-width: 634px) {
+  .header__logo {
+    top: 20%;
+    left: 40%;
+  }
+}
+
+.btn {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 1rem 2rem;
+  border-radius: 10rem;
+  max-width: 300px;
+}
+
+@media only screen and (max-width: 633px) {
+  .btn {
+    margin: 0 auto 2rem;
+  }
+}
+
+.btn-container {
+  width: 94%;
+  margin: 2rem auto;
+  display: flexbox;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media only screen and (min-width: 634px) {
+  .btn-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-bottom: 12rem;
+  }
+}
+
+.btn--green {
+  background-color: #26baa4;
+  -webkit-box-shadow: 0 1rem 0.5rem rgba(38, 186, 164, 0.5);
+          box-shadow: 0 1rem 0.5rem rgba(38, 186, 164, 0.5);
+}
+
+.btn--blue {
+  background-color: #6173ff;
+  -webkit-box-shadow: 0 1rem 0.5rem rgba(97, 115, 255, 0.5);
+          box-shadow: 0 1rem 0.5rem rgba(97, 115, 255, 0.5);
+}
+
+@media only screen and (min-width: 634px) {
+  .btn--blue {
+    justify-self: flex-start;
+  }
+}
+
+@media only screen and (min-width: 634px) {
+  .btn + .btn {
+    margin-left: -18%;
+  }
+}
+
+.u-margin-bottom {
+  margin-bottom: 12rem;
+}
+
+.text-container {
+  width: 94%;
+  max-width: 575px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text-container .main--title {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 2rem;
+}
+
+.text-container .sub--title {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 3rem;
+}
+
+.computer {
+  width: 90%;
+  max-width: 400px;
+}
+
+.computer-container {
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 6rem;
+}
+
+.access-header {
+  margin-top: 12rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .section--1__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .computer-content {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .left-text-container {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 2rem;
+  }
+}
+
+.logo-svg-container {
+  margin-top: 12rem;
+}
+
+.logo--title {
+  margin-top: 3rem;
+}
+
+.companies:not(:last-child) {
+  margin-bottom: 6rem;
+}
+
+.logo-companies {
+  text-align: center;
+  margin: 12rem 0;
+}
+
+.footer {
+  background-color: #eee;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.footer--btn {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 3rem;
+}
+
+.footer-logo {
+  width: 12vh;
+}
+
+.footer-logo-container {
+  margin-bottom: 3rem;
+}
+
+.footer .social {
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+
+.footer .social + .social {
+  margin-left: 3rem;
+}
+/*# sourceMappingURL=main.css.map */

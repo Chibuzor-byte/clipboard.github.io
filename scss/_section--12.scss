@@ -1,0 +1,51 @@
+.computer {
+    width: 90%;
+    max-width: 400px;
+    &-container{
+        text-align: center;
+        margin-bottom: $margin-small;
+        margin-top: $margin-medium;
+    }
+}
+
+.access-header{
+    margin-top: $margin-big;
+}
+
+.section--1__container {
+    @media only screen and (min-width: 1000px) {
+        display: flex;
+        justify-content: space-evenly;
+        // align-items: center;
+        position: relative;
+
+    }
+
+}
+
+.computer-container {
+    
+    // position: absolute;
+    // left: -10%;
+}
+
+.computer-content {
+    @media only screen and (min-width: 1000px) {
+        align-self: flex-end;
+        font-size: 1.5rem;
+        text-align: left;
+        margin-left: 3rem;
+        // position: absolute;
+
+    }
+}
+
+.left-text-container {
+    @media only screen and (min-width: 1000px) {
+        align-self: flex-end;
+        font-size: 1.5rem;
+        text-align: left;
+        margin-left: 2rem;
+
+    }
+}

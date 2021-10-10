@@ -1,0 +1,25 @@
+@mixin text {
+    .main--title {
+        font-weight: 600;
+        color: rgba($primary-black, .6);
+        margin-bottom: $margin-exsmall;
+    }
+    
+    .sub--title {
+        font-weight: 400;
+        color: rgba($primary-black, .5);
+        margin-bottom: $margin-small;
+    }
+}
+
+@mixin footer-links{
+    &--btn{
+        font-weight: 700;
+        color: rgba($primary-black, .5);
+        margin-bottom: $margin-small;
+        // &:last-child {
+        //     margin-bottom: $margin-medium;
+        // }
+       
+    }
+}

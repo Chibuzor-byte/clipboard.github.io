@@ -1,0 +1,19 @@
+.logo-svg-container {
+    margin-top: $margin-big;
+    
+}
+
+.logo--title {
+    margin-top: $margin-small;
+}
+
+.companies {
+    &:not(:last-child) {
+        margin-bottom: $margin-medium;
+    }
+}
+
+.logo-companies {
+    text-align: center;
+    margin: $margin-big 0;
+}

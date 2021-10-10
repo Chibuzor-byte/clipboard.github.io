@@ -1,0 +1,22 @@
+.footer {
+    background-color: #eee;
+    text-align: center;
+    padding-top: 5rem;
+    @include footer-links;
+    
+    &-logo{
+        width: 12vh;
+        &-container{
+            margin-bottom: $margin-small;
+        }
+    } 
+
+    .social{
+        display: inline-block;
+        margin-bottom: $margin-small;
+    }
+
+    .social + .social {
+        margin-left: $margin-small;
+    }
+}
